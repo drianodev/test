@@ -1,0 +1,21 @@
+_id: req_8fcbaf2245274db4b251ed6e291d6bab
+type: Request
+parentId: fld_0b2561ad4bc647eba32776cf8a52d4c8
+modified: 1646785618397
+created: 1646785596554
+url: "{{ _.servido }}/store/order/1"
+name: find purchase order by ID
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646785534231
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

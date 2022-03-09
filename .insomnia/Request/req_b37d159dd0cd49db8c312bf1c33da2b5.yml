@@ -1,0 +1,21 @@
+_id: req_b37d159dd0cd49db8c312bf1c33da2b5
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646784970587
+created: 1646784932876
+url: "{{ _.servido }}/user/drianodev"
+name: get user
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646784932876
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

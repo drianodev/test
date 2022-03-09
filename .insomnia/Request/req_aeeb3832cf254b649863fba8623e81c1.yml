@@ -1,0 +1,21 @@
+_id: req_aeeb3832cf254b649863fba8623e81c1
+type: Request
+parentId: fld_4fb223fac6464db6b3dd7a797cb87ac7
+modified: 1646786549443
+created: 1646786457627
+url: "{{ _.servido }}/pet/2"
+name: find by pet id
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646786264971
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

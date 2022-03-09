@@ -1,0 +1,21 @@
+_id: req_71186086627648aeb8db767086e3fbe5
+type: Request
+parentId: fld_0b2561ad4bc647eba32776cf8a52d4c8
+modified: 1646785678297
+created: 1646785657420
+url: "{{ _.servido }}/store/inventory"
+name: returns pet inventories by status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646785534181
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

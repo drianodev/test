@@ -1,0 +1,44 @@
+_id: req_4d25f0146a2d496cac390077d07b1f36
+type: Request
+parentId: fld_4fb223fac6464db6b3dd7a797cb87ac7
+modified: 1646786540071
+created: 1646786265121
+url: "{{ _.servido }}/pet"
+name: add new pet
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 2,
+      "category": {
+        "id": 2,
+        "name": "string"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 2,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_89b7afea6b4743d9bfa9f1e7597b943e
+authentication: {}
+metaSortKey: -1646786265121
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

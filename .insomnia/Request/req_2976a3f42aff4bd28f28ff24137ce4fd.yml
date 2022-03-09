@@ -1,0 +1,21 @@
+_id: req_2976a3f42aff4bd28f28ff24137ce4fd
+type: Request
+parentId: fld_4fb223fac6464db6b3dd7a797cb87ac7
+modified: 1646786526837
+created: 1646786514307
+url: "{{ _.servido }}/pet/2"
+name: delete
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646786514307
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

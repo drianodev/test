@@ -1,0 +1,38 @@
+_id: req_a3bb7a4d6f114145b294a26c80692989
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646785341871
+created: 1646784871479
+url: "{{ _.servido }}/user/createWithArray"
+name: creates list of users
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    [
+      {
+        "id": 0,
+        "username": "string",
+        "firstName": "string",
+        "lastName": "string",
+        "email": "string",
+        "password": "string",
+        "phone": "string",
+        "userStatus": 0
+      }
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_67a0b2b042514a61b19cfb9aac68aff6
+authentication: {}
+metaSortKey: -1646785328932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

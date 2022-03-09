@@ -1,0 +1,36 @@
+_id: req_014f023a8d284507bc5f245ea4ee3836
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646785490445
+created: 1646784411057
+url: "{{ _.servido }}/user"
+name: create user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1,
+      "username": "drianodev",
+      "firstName": "adriano",
+      "lastName": "mendes",
+      "email": "adriano@email.com",
+      "password": "1234",
+      "phone": "99999999",
+      "userStatus": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_66e16891f99f458d997cf1aac927813c
+authentication: {}
+metaSortKey: -1646784411057
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

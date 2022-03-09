@@ -1,0 +1,44 @@
+_id: req_c57d528e37134df889b3249d33b0dc85
+type: Request
+parentId: fld_4fb223fac6464db6b3dd7a797cb87ac7
+modified: 1646786394902
+created: 1646786360436
+url: "{{ _.servido }}/pet"
+name: update pet
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1,
+      "category": {
+        "id": 1,
+        "name": "algo"
+      },
+      "name": "doggie",
+      "photoUrls": [
+        "string"
+      ],
+      "tags": [
+        {
+          "id": 1,
+          "name": "string"
+        }
+      ],
+      "status": "available"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d5463bd08ede42e8b95eb4cca5ef6099
+authentication: {}
+metaSortKey: -1646786265071
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

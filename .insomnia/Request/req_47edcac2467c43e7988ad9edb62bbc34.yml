@@ -1,0 +1,36 @@
+_id: req_47edcac2467c43e7988ad9edb62bbc34
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646785393439
+created: 1646785328882
+url: "{{ _.servido }}/user/drianodev"
+name: update user
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "id": 1,
+      "username": "drianodev",
+      "firstName": "adriano",
+      "lastName": "mendes",
+      "email": "adriano@email.com",
+      "password": "1234",
+      "phone": "0000000000000",
+      "userStatus": 1
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_7e01eccc00154e3eb0b4af50dfe6d7f7
+authentication: {}
+metaSortKey: -1646784734111
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

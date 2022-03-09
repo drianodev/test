@@ -1,0 +1,21 @@
+_id: req_305fb4e44169495ea8111ddf77089abd
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646785435355
+created: 1646785418618
+url: "{{ _.servido }}/user/drianodev"
+name: delete user
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646785418618
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

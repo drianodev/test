@@ -1,0 +1,21 @@
+_id: req_e788a83157004208ba518830e67afd17
+type: Request
+parentId: fld_4fb223fac6464db6b3dd7a797cb87ac7
+modified: 1646786441430
+created: 1646786419319
+url: "{{ _.servido }}/pet/findByStatus"
+name: find by status
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1646786265021
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

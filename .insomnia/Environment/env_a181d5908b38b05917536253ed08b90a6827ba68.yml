@@ -1,0 +1,14 @@
+_id: env_a181d5908b38b05917536253ed08b90a6827ba68
+type: Environment
+parentId: wrk_b44f4ab3dc6f49e8bf6c58cafc8e3fcb
+modified: 1646778134513
+created: 1646761994349
+name: Base Environment
+data:
+  servido: https://petstore.swagger.io/v2
+dataPropertyOrder:
+  "&":
+    - servido
+color: null
+isPrivate: false
+metaSortKey: 1646761994349

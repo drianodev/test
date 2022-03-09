@@ -1,0 +1,29 @@
+_id: req_f8d4b858e6c1423baceb6a93fe67a519
+type: Request
+parentId: fld_1f98d4ebf17c4e20801c2549e9b5821c
+modified: 1646784639028
+created: 1646784535346
+url: "{{ _.servido }}/user/login"
+name: logs user into the system
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6b81d58091b2491dae566d78934db34f
+    name: username
+    value: string
+    description: ""
+  - id: pair_b2d37fc4690c41d887dd8f381ae012bf
+    name: password
+    value: string
+    description: ""
+authentication: {}
+metaSortKey: -1646784535346
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
